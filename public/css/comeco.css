@@ -1,0 +1,703 @@
+
+ 
+ 
+  .btn{
+ padding: 10px 8px;
+ width: 50px;
+ color: yellow;
+ background: black;
+ border: 1px solid #FFFFFF;
+ border-radius: 5px;
+ text-align: center;
+ user-select: none;
+ cursor: pointer;
+ }
+ 
+ html {
+   font-family: sans-serif;
+   line-height: 1.15;
+   -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+   -ms-overflow-style: scrollbar;
+   -webkit-tap-highlight-color: transparent; }
+ 
+ @-ms-viewport {
+   width: device-width; }
+ 
+ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+   display: block; }
+ 
+ body {
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #212529;
+   text-align: left;
+   background-color: #fff; }
+ 
+ [tabindex="-1"]:focus {
+   outline: 0 !important; }
+ 
+ hr {
+   -webkit-box-sizing: content-box;
+		   box-sizing: content-box;
+   height: 0;
+   overflow: visible; }
+ 
+ h1, h2, h3, h4, h5, h6 {
+   margin-top: 0;
+   margin-bottom: 0.5rem;
+   font-family: Candara;
+
+ }
+ 
+ p {
+   margin-top: 0;
+   margin-bottom: 0.2rem; 
+}
+ 
+
+ address {
+   margin-bottom: 1rem;
+   font-style: normal;
+   line-height: inherit; }
+ 
+ ol,
+ ul,
+ dl {
+   margin-top: 0;
+   margin-bottom: 1rem; }
+ 
+ ol ol,
+ ul ul,
+ ol ul,
+ ul ol {
+   margin-bottom: 0; }
+ 
+ dt {
+   font-weight: 700; }
+ 
+ dd {
+   margin-bottom: .5rem;
+   margin-left: 0; }
+ 
+ blockquote {
+   margin: 0 0 1rem; }
+ 
+ dfn {
+   font-style: italic; }
+ 
+ b,
+ strong {
+   font-weight: bolder; }
+ 
+ small {
+   font-size: 80%; }
+ 
+ sub,
+ sup {
+   position: relative;
+   font-size: 75%;
+   line-height: 0;
+   vertical-align: baseline; }
+ 
+ sub {
+   bottom: -.25em; }
+ 
+ sup {
+   top: -.5em; }
+ 
+ a {
+   color: red;
+   text-decoration: none;
+   background-color: transparent;
+   -webkit-text-decoration-skip: objects; }
+   a:hover {
+	 color: black;
+	 text-decoration: underline; }
+ 
+ a:not([href]):not([tabindex]) {
+   color: inherit;
+   text-decoration: none; }
+   a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+	 color: inherit;
+	 text-decoration: none; }
+   a:not([href]):not([tabindex]):focus {
+	 outline: 0; }
+ 
+ pre,
+ code,
+ kbd,
+ samp {
+   font-family: monospace, monospace;
+   font-size: 1em; }
+ 
+ pre {
+   margin-top: 0;
+   margin-bottom: 1rem;
+   overflow: auto;
+   -ms-overflow-style: scrollbar; }
+ 
+ figure {
+   margin: 0 0 1rem; }
+ 
+ img {
+   vertical-align: middle;
+   border-style: none; }
+ 
+ svg:not(:root) {
+   overflow: hidden; }
+ 
+ a,
+ area,
+ button,
+ [role="button"],
+ input:not([type="range"]),
+ label,
+ select,
+ summary,
+ textarea {
+   -ms-touch-action: manipulation;
+	   touch-action: manipulation; }
+ 
+ table {
+   border-collapse: collapse; }
+ 
+ caption {
+   padding-top: 0.75rem;
+   padding-bottom: 0.75rem;
+   color: #868e96;
+   text-align: left;
+   caption-side: bottom; }
+
+   #contactform input,#contactform textarea {
+    margin-top:0px;
+	border:0px;
+	border-bottom:2px solid #333;
+	width:50%;
+	background-color:transparent;
+	padding:25px 10px;
+    padding-top:30px;
+	text-transform:uppercase;
+    font-family: Candara;
+	letter-spacing:3px;
+	margin-bottom:10px;
+   }
+   .busca{
+	width: 5%;
+	padding: 5px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	border-radius: 2px;
+	text-decoration: none;
+	font-family: Candara;
+	font-size: 12px;
+}
+
+   .carrinho-adicionar{
+	display: block;
+	width: 33.3%;
+	padding: 10px;
+	color: black;
+	background-color: #2E8B57;
+	text-align: center;
+	border-radius: 5px;
+	text-decoration: none !important;
+	font-family: Candara;
+	font-size: 15px;
+    
+}
+
+.gallery ul {
+	padding:0;
+	margin:0;
+    border-radius: 8px;
+}
+.gallery img {
+	max-width:100%;
+	height:auto;
+	padding:0;
+	margin:0;
+	width: 33.3%;
+	padding: 50 30px;
+    border-radius: 8px;
+}
+.gallery ul li {
+	margin:0;
+	position:relative;
+	list-style:none;
+	padding:0;
+	display:inline-block;
+    border-radius: 8px;
+}
+
+.footer{
+    background-color:#8B0000;
+    color: white;
+    width: 100%;
+    height: 100px;    
+    line-height: 100px;
+}
+.footer-rodape{
+    background-color: #8B0000;
+    font-family:Candara;
+    font-size: 30px;
+    color:white;
+    width: 100%;
+    height: 100px;    
+    line-height: 100px;
+}
+.navbar-custom {
+	margin-bottom:70;
+	border-bottom:1px solid rgba(255,255,255,.3);
+	text-transform:uppercase;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:13px;
+}
+.navbar-custom .dropdown-item {
+	font-size:90px;
+    text-transform: none;
+}
+.navbar-custom .navbar-brand {
+	font-size:20px;
+	text-transform:none;
+	letter-spacing:1px;
+	font-family: Candara;
+}
+.navbar-custom .navbar-brand:focus {
+	outline:0;
+}
+.navbar-custom .navbar-brand .navbar-toggle {
+	padding:4px 6px;
+	font-size:16px;
+	color:#fff;
+}
+.navbar-custom .navbar-brand .navbar-toggle:focus,.navbar-custom .navbar-brand .navbar-toggle:active {
+	outline:0;
+}
+.nav-link {
+	padding-right:1rem;
+	padding-left:1rem;
+}
+.nav-link a {
+	-webkit-transition:background .3s ease-in-out;
+	-moz-transition:background .3s ease-in-out;
+	transition:background .3s ease-in-out;
+}
+.nav-link:hover {
+	outline:0;
+	color:#1ba39c;
+	background-color:transparent;
+}
+.nav-link:focus,.nav-link:active {
+	outline:0;
+	background-color:transparent;
+}
+.nav-link.active {
+	outline:0;
+}
+.nav-link.active {
+	color:#1ba39c;
+}
+.nav-link.active:hover {
+	color:#1ba39c;
+}
+@media(min-width:768px) {
+	.navbar-custom {
+			padding:15px 0;
+			border-bottom:0;
+			font-size:13px;
+			background:0 0;
+			-webkit-transition:background .5s ease-in-out,padding .5s ease-in-out;
+			-moz-transition:background .5s ease-in-out,padding .5s ease-in-out;
+			transition:background .5s ease-in-out,padding .5s ease-in-out;
+	}
+	.navbar-custom.top-nav-collapse {
+		padding:1px 0;
+		border-bottom:1px solid rgba(255,255,255,.3);
+		color:#333;
+		background:#fff;
+	}
+	.navbar-custom.top-nav-collapse a {
+			color:#333;
+			display:inline-block;
+	}
+	.navbar-expand-md .navbar-custom.navbar-nav .nav-link {
+		padding: right 80px;
+		padding-left:1rem;
+		font-weight:300;
+	}
+	.navbar-expand-md .navbar-custom.navbar-nav .nav-link {
+		padding-right: 1rem;
+		padding-left: 1rem;
+		font-weight: 300;
+	}
+	
+	@media (min-width: 768px)
+	.navbar-expand-md .navbar-nav .nav-link {
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+	}
+	.navbar-nav .nav-link {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.nav-link {
+		padding-right: 1rem;
+		padding-left: 1rem;
+	}
+	.nav-link {
+		display: block;
+		padding: 0.5rem 1rem;
+	}
+	a {
+		color: inherit;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;
+	}
+	a, area, button, [role="button"], input:not([type="range"]), label, select, summary, textarea {
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+	}
+	.intro .intro-body .brand-heading {
+		font-size: 60px;
+		margin-top: 90px;
+		margin-bottom: 25px;
+		border-top: 5px solid white;
+		border-bottom: 5px solid white;
+		display: inline-block;
+		padding: 10px 0;
+	}
+	a {
+		color: red;
+		text-decoration: none;
+		background-color: transparent;
+		-webkit-text-decoration-skip: objects;
+	}
+	*, *::before, *::after {
+		-webkit-box-sizing: inherit;
+		box-sizing: inherit;
+	}
+	*, *::before, *::after {
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	*, *::before, *::after {
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	user agent stylesheet
+	a:-webkit-any-link {
+		color: -webkit-link;
+		cursor: pointer;
+		text-decoration: underline;
+	}
+	.navbar-expand-md .navbar-nav {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+	
+	.intro .intro-body .brand-heading {
+		font-size: 70px;
+	}
+	.btn-circle {
+		width: 50px;
+		height: 50px;
+		margin-top: 15px;
+		line-height: 40px;
+		text-align: center;
+		border: 2px solid #fff;
+		border-radius: 100%!important;
+		font-size: 20px;
+		color: #fff;
+		background: 0 0;
+		-webkit-transition: background .3s ease-in-out;
+		-moz-transition: background .3s ease-in-out;
+		transition: background .3s ease-in-out;
+	}
+	.btn {
+		display: inline-block;
+		font-weight: 400;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		border: 1px solid transparent;
+		padding: 0.375rem 0.75rem;
+		font-size: 1rem;
+		line-height: 1.5;
+		border-radius: 0.25rem;
+		-webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+		transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+		transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+		transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+	}
+	.btn {
+		padding: 10px 8px;
+		width: 50px;
+		color: yellow;
+		background: black;
+		border: 1px solid #FFFFFF;
+		border-radius: 5px;
+		text-align: center;
+		user-select: none;
+		cursor: pointer;
+	}
+	a {
+		color: inherit;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;
+	}
+	a, area, button, [role="button"], input:not([type="range"]), label, select, summary, textarea {
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+	}
+	a {
+		color: yellow;
+		text-decoration: none;
+		background-color: transparent;
+		-webkit-text-decoration-skip: objects;
+	}
+	.menu{
+		padding:0 10px;
+		margin:35px;
+        margin-top: -55px;
+        margin-right: 2px;
+        height: 24px;
+		float: right;
+		width: 10%;
+		background-color:trasparent;
+		list-style:none;
+		font:100% Candara;
+        color: white;
+        text-decoration: none !important;
+
+	}
+	.prime{
+		padding:0 10px;
+		margin:35px;
+        margin-top: -55px;
+        margin-right: 40px;
+        height: 27px;
+		float: right;
+		width: 10%;
+		background-color:transparent;
+		border-radius: 10px;
+		font:100% Candara;
+		font-size: 16px;
+        color: white;
+        text-decoration: none !important;
+	}
+    .open{
+
+    	font-size: 40px;
+		margin-top: 3px;
+		margin-bottom: 25px;
+		margin-left: 200px;
+		border-top: 5px solid white;
+		border-bottom: 0px solid white;
+		display: inline-block;
+		padding: 0px 0;
+    }
+    .open2{
+        font-family: Candara;
+    	font-size: 16px;
+		margin-top: 3px;
+		margin-bottom: 25px;
+		margin-left: 200px;
+		border-top: 5px solid white;
+		border-bottom: 0px solid white;
+		display: inline-block;
+		padding: 0px 0;
+    }
+    .open3{
+        font-family: Candara;
+    	font-size: 16px;
+		
+    }
+    
+
+
+    .imagem-logo{
+        width:120px;
+        height:120px;
+    }
+
+.box{
+	width: 200px;
+	height: 120px;
+	margin-left: 15%;
+	display: inline-flex;
+	padding: 50px 10px 20px 0px;
+	margin-top: 10px;
+	padding-top: 50px;
+}
+
+   }
+   
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+	
+	.intro {
+		display: table;
+		width: 100%;
+		height: 100%;
+		padding: 120px 90px 120px 90px;
+		text-align: center;
+		color: white;
+		background-image: radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.18)),url(https://www.meupositivo.com.br/doseujeito/wp-content/uploads/2020/07/aplicativo-de-papel-de-parede.jpg);
+        opacity:0.6;
+		background-size: cover;
+		-o-background-size: cover;
+	}
+	.intro2 {
+		
+		width: 50%;
+		height: 100%;
+		margin-left: 10%;
+		margin-top: -5%;
+		padding: 90px 60px 90px 60px;
+		text-align: center;
+		color: white;
+	}
+	.intro3 {
+		
+		width: 50%;
+		height: 100%;
+		margin-left: 25%;
+		margin-top: -5%;
+		padding: 90px 60px 90px 60px;
+		text-align: center;
+		color: white;
+	}
+
+	}
+	body {
+		width: 100%;
+		height: 100%;
+		font-family: Open Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+		color: rgb(5, 5, 5);
+		font-weight: 300;
+	}
+	body {
+		margin: 0;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.5;
+		color: #212529;
+		text-align: left;
+		background-color: #fff;
+	}
+	body {
+		margin: 0;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.5;
+		color: black;
+		text-align: left;
+		background-color: white;
+	}
+	html {
+		font-family: sans-serif;
+		line-height: 1.15;
+		-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+		-ms-overflow-style: scrollbar;
+		-webkit-tap-highlight-color: transparent;
+	}
+	*, *::before, *::after {
+		-webkit-box-sizing: inherit;
+		box-sizing: inherit;
+	}
+	*, *::before, *::after {
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	*, *::before, *::after {
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	*, *::before, *::after {
+		-webkit-box-sizing: inherit;
+		box-sizing: inherit;
+	}
+	*, *::before, *::after {
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	
+	*, *::before, *::after {
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	::selection {
+		text-shadow: none;
+		background: #fcfcfc;
+		background: rgba(255,255,255,.2);
+	}
+	
+.gallery ul li a {
+	display:block;
+	position:relative;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	line-height:0;
+	overflow:hidden;
+	max-height:220px;
+}
+.gallery ul li a:before {
+	position:absolute;
+	width:32px;
+	height:32px;
+	top:40%;
+	left:50%;
+	margin:-14px 0 0 -16px;
+	background:url(data:image/svg+xml;
+	utf8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2017.1.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0A%3Csvg%20version%3D%221.1%22%0A%09%20id%3D%22svg2%22%20xmlns%3Adc%3D%22http%3A//purl.org/dc/elements/1.1/%22%20xmlns%3Acc%3D%22http%3A//creativecommons.org/ns%23%22%20xmlns%3Ardf%3D%22http%3A//www.w3.org/1999/02/22-rdf-syntax-ns%23%22%20xmlns%3Asvg%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Asodipodi%3D%22http%3A//sodipodi.sourceforge.net/DTD/sodipodi-0.dtd%22%20xmlns%3Ainkscape%3D%22http%3A//www.inkscape.org/namespaces/inkscape%22%20inkscape%3Aversion%3D%220.48.4%20r9939%22%20sodipodi%3Adocname%3D%22icon-fullscreen.svg%22%0A%09%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%20viewBox%3D%220%200%20960%20560%22%0A%09%20enable-background%3D%22new%200%200%20960%20560%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Csodipodi%3Anamedview%20%20borderopacity%3D%221%22%20pagecolor%3D%22%23ffffff%22%20bordercolor%3D%22%23666666%22%20objecttolerance%3D%2210%22%20gridtolerance%3D%2210%22%20guidetolerance%3D%2210%22%20showgrid%3D%22false%22%20fit-margin-top%3D%220%22%20fit-margin-left%3D%220%22%20inkscape%3Azoom%3D%227.375%22%20inkscape%3Acx%3D%22-5.1525424%22%20inkscape%3Acy%3D%2216%22%20id%3D%22namedview11%22%20inkscape%3Awindow-x%3D%22-8%22%20inkscape%3Awindow-y%3D%22-8%22%20fit-margin-right%3D%220%22%20inkscape%3Apageopacity%3D%220%22%20fit-margin-bottom%3D%220%22%20inkscape%3Awindow-width%3D%221366%22%20inkscape%3Awindow-height%3D%22706%22%20inkscape%3Awindow-maximized%3D%221%22%20inkscape%3Apageshadow%3D%222%22%20inkscape%3Acurrent-layer%3D%22svg2%22%3E%0A%09%3C/sodipodi%3Anamedview%3E%0A%3Cg%3E%0A%09%3Crect%20x%3D%22220%22%20y%3D%22260%22%20fill%3D%22%23FFFFFF%22%20width%3D%22536%22%20height%3D%2224%22/%3E%0A%3C/g%3E%0A%3Cg%3E%0A%09%3Crect%20x%3D%22476%22%20y%3D%224%22%20fill%3D%22%23FFFFFF%22%20width%3D%2224%22%20height%3D%22556%22/%3E%0A%3C/g%3E%0A%3C/svg%3E%0A) no-repeat;
+	content:"";
+	opacity:0;
+	z-index:1;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	transition:all 0.3s linear;
+}
+.gallery ul li a:hover:before {
+	top:50%;
+	opacity:1;
+}
+.gallery ul li a:after {
+	position:absolute;
+	width:100%;
+	top:0;
+	bottom:0;
+	background:rgba(0,0,0,0.3);
+	content:"";
+	opacity:0;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	transition:all 0.3s linear;
+}
+
